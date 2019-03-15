@@ -32,7 +32,7 @@ function search(client, cid) {
                 id: cid,
                 type: 'file',
                 realtime: false,
-                _source: 'metadata'
+                _source: 'metadata,language,ipfs_tika_version'
             }).then(success).catch(fail)
         }
     )
