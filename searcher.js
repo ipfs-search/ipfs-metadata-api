@@ -42,7 +42,8 @@ function make_searcher() {
     // Don't *do* anything at module loadnpm
     var client = new elasticsearch.Client({
         host: 'localhost:9200',
-        log: 'info'
+        log: 'info',
+        apiVersion: '5.6'
     });
 
     return {
