@@ -32,8 +32,7 @@ function search(client, cid) {
                 id: cid,
                 type: 'file',
                 realtime: false,
-                _source: 'metadata',
-                timeout: '15s'
+                _source: 'metadata'
             }).then(success).catch(fail)
         }
     )
