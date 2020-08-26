@@ -28,9 +28,9 @@ function search(client, cid) {
 
             // Perform the actual search
             client.get({
-                index: 'ipfs',
+                index: 'ipfs_files_v7',
                 id: cid,
-                type: 'file',
+                type: '_doc',
                 realtime: false,
                 _source: 'metadata,language,ipfs_tika_version'
             }).then(success).catch(fail)
