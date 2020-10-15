@@ -28,7 +28,7 @@ function search(client, cid) {
 
             // Perform the actual search
             client.get({
-                index: 'ipfs_files_v7',
+                index: 'ipfs_files',
                 id: cid,
                 type: '_doc',
                 realtime: false,
