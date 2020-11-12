@@ -1,11 +1,3 @@
-# ipfs-metadata-api
-Microservice for retrieving metadata from the ipfs-search.com Elasticsearch index.
+# Archived: ipfs-metadata-api
 
-## Requirements
-Node 9
-
-## Usage
-```
-npm install
-npm start
-```
+Migrated to be part of the [ipfs-search-api](https://github.com/ipfs-search/ipfs-search-api) repository.
